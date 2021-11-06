@@ -6,6 +6,9 @@
   /**
    * main configuration of the Bit workspace.
    **/
+  "teambit.compilation/bundler": {
+    "dedicatedEnvDevServers": ["teambit.html/html"]
+  },
   "teambit.workspace/workspace": {
     /**
      * the name of the component workspace. used for development purposes.
